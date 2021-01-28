@@ -1,10 +1,10 @@
+
 workspace:
   base: /srv/drone-uuid
   path: .
 
 pipeline:
   build:
-    image: golang:alpine
     environment:
       - KEY=VALUE
     commands:
